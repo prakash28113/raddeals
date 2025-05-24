@@ -1,8 +1,7 @@
 {
   "name": "vite-react-typescript-starter",
-  "private": true,
   "version": "1.0.0",
-  "homepage": "https://raddeals.in/",
+  "homepage": "https://prakash28113.github.io/raddeals/",
   "type": "module",
   "scripts": {
     "dev": "vite",
