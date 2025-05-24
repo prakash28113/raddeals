@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page App</title>
+    <script>
+      const path = window.location.pathname;
+      sessionStorage.setItem('redirect', path);
+      window.location = '/';
+    </script>
+  </head>
+</html>
