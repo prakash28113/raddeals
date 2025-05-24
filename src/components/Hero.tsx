@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Button from './common/Button';
 import { Paintbrush, Code, ArrowRight } from 'lucide-react';
+import RadDealsLogo from '../images/RadDeals.png';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -69,7 +70,7 @@ const Hero: React.FC = () => {
               <div className="w-full aspect-triangle max-w-md rounded-2xl shadow-xl bg-white p-4 relative z-10">
                 <div className="w-full h-full rounded-xl bg-accent flex items-center justify-center">
                   <div className="flex justify-center items-center h-full">
-                    <img src="/images/RadDeals.png" alt="Raddeals Logo" className="max-w-full max-h-full object-contain" />
+                    <img src={RadDealsLogo} alt="Raddeals Logo" className="max-w-full max-h-full object-contain" />
                   </div>
                 </div>
               </div>
